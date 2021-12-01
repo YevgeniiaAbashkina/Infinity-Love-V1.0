@@ -1,0 +1,65 @@
+.top-container{
+    height: fit-content;
+    background-color: #e2b3e0;
+    _padding-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.top-box{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.friends-form form input, select{
+    width: 80%;
+    color: #401820 !important;
+    padding: 10px 30px;
+    border-radius: 20px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #46286552;
+    outline: none;
+}
+
+.friends-btn{
+    margin: 0px;
+    width: 80%;
+}
+
+.friends-image-box{
+    width: 90%;
+    height: 90%;
+}
+
+.friends-image{
+    width: 356px;
+    height: 356px;
+    border-radius: 20px;
+
+}
+
+.fr-profile-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.bottom-container{
+    _height: 50vh;
+    background-color: #F7DAEC;
+    padding: 36px 0 0;
+    display: flex;
+    flex-basis: calc(100%/3 - 20px);
+    flex-wrap: wrap;
+
+}
+
+.friend-item{
+    _width: 250px;
+    padding: 20px 10px;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: rgba(128, 128, 128, 0.541) 3px 6px 20px 3px;
+}

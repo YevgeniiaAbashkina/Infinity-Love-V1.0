@@ -1,0 +1,47 @@
+/* doctors */
+
+.doctors-box{
+    background-color: #9fcc45b6;
+}
+
+.body-form{
+    padding: 0px 30px;
+    
+}
+
+.body-form p{
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+
+.body-form input{
+    padding: 10px;
+    margin: 6px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #46286552;
+}
+
+#doc_name, #doc-phone, #gameCentr_name{
+    width: 360px;
+    margin-left: 50px;
+}
+
+#zip{
+    width: 150px;
+    margin-left: 36px;
+}
+
+#doc-city{
+    width: 200px;
+}
+
+#no{
+    width: 100px;
+}
+
+#street{
+    margin-left: 96px;
+    width: 250px;
+}
+

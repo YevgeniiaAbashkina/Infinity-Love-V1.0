@@ -1,0 +1,62 @@
+.childrens-box{
+    background-color: #E0B703;
+}
+
+.childrens-box p{
+    text-align: center;
+    font-weight: 600;
+    padding: 0 20px 10px;
+}
+
+#ch_name, #hobby{
+    width: 300px;
+    margin: 0 55px 10px;
+}
+
+#hobby{
+    margin-left: 108px;
+    margin-top: 6px;
+}
+
+.ch-body-form{
+    padding:  10px 10px 0;
+}
+
+.img-plus{
+    height: 40px;
+    width: 40px !important;
+    border-radius: 50%;
+} 
+
+.add-input-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ch_birth{
+    width: 300px;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.form-switched{
+    visibility: hidden;
+    }
+
+.success-box{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.success-message{
+    font-size: 1.5rem;
+}
+
+.success-img{
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+

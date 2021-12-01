@@ -1,0 +1,36 @@
+.services-submenu{
+    width: 900px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    list-style: none;
+    text-align: start;
+    top: 70px;
+}
+
+.services-submenu li{
+    background: #9fcc45b6 ;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.services-submenu.clicked{
+    display: none;
+}
+
+.submenu-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #401820 !important;
+    padding: 16px;
+    margin-left: 50px;
+}
+
+.services-submenu li a:hover{
+    background-color: #fdd41cce;
+    margin-left: -0px;
+}

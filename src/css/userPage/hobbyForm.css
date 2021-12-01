@@ -1,0 +1,61 @@
+/* hobby */
+.hobbies-box{
+    background-color: #e090dd85;
+}
+
+
+
+.page-right-btn{
+    width: 100%;
+    margin-top: 0;
+}
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col p{
+    font-weight: 600;
+}
+
+.left-col input, .right-col input{
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 236px;
+    border: 2px solid #46286552;
+    outline: none;
+}
+
+
+.btn-cancel,
+.save-btn{
+    flex-basis: calc(100%/2);
+    height: 50px;
+    margin-top: 10px;
+    border:none;
+    font-size: 1.4rem;
+    color: #cfcfcf;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.8s all ease-out;
+    cursor: pointer;
+    background-color: #462865a6;
+    text-align: center;
+}
+
+.btn-cancel{
+    background-color: #4628655d;
+}
+
+.btn-cancel:hover,
+.save-btn:hover{
+    background-color: #462865dc;
+    color: #fdd51c;
+}

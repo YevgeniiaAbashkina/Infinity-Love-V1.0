@@ -1,0 +1,167 @@
+
+/* .container{
+    margin: 0 auto;
+    width: 900px;
+    height: fit-content;
+    padding-top: 120px;
+} */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-circle-img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: url("https://res.cloudinary.com/ds9xmjqj8/image/upload/v1635973203/samples/infinity-love/icon_bhwlmp.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.left-img{
+    box-shadow: rgba(0, 0, 0, 0.253) 4px 2px 10px 3px;
+}
+
+.right-img{
+    box-shadow: rgba(0, 0, 0, 0.253) -4px 2px 10px 3px;
+    background: url("https://res.cloudinary.com/ds9xmjqj8/image/upload/v1635878885/samples/infinity-love/herz-girl_po5qyh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img{
+    width: 250px;
+    background: url("https://res.cloudinary.com/ds9xmjqj8/image/upload/v1636138636/samples/infinity-love/logo-1_z7exq8.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.content-btn{
+    background: #462865;
+    font-size: 1.4rem;
+    color: #cfcfcf;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.8s all ease-out;
+    cursor: pointer;
+    width: 250px;
+    padding: 10px 16px;
+    margin: 40px auto;
+    text-align: center;
+    border: none;
+    border-radius: 0 0 20px 20px;
+    display: block;
+    text-decoration: none;
+    border: 2px solid #462865;
+}
+    
+.content-btn:hover{
+    background-color: #fdd51c;
+    color: #462865;
+}
+
+/* home-cards */
+.home-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin:0 20px 40px 20px;
+    flex-basis: calc(100%/3 - 40px);
+    height: 330px;
+    border-radius: 20px;
+    background-color: #f9f2f2cc;
+    color: #401820 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(128, 128, 128, 0.541) 3px 6px 20px 3px;
+    
+}
+
+.item h3{
+    margin: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #462865;
+}
+
+.card-img{
+    border-radius: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.card-imgIL{
+    width: 70px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.card-body{
+    margin: 0 auto;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.item p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* about */
+.about h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about li{
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.about{
+    background-image: url("https://res.cloudinary.com/ds9xmjqj8/image/upload/v1637495633/samples/infinity-love/2parent_vwej6d.jpg");
+    background-size: cover;
+    display: flex;
+    padding: 30px 60px;
+}
+
+.about h2{
+    align-self: center;
+}
+
+.text-about{
+    width: 50%;
+    align-self: flex-end;
+}
+/*violets*/
+.violets{
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/ds9xmjqj8/image/upload/v1635878886/samples/infinity-love/poster1_abjjhd.jpg");
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    _margin-bottom: 50px;
+}
+
+.violets h1, .violets span{
+    color: #fdd51c;
+    font-size: 2rem;
+}
+
+.violets span{
+    font-weight: 300;
+}

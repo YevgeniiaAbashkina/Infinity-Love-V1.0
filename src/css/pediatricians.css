@@ -1,0 +1,48 @@
+.doc-image{
+    border-radius: 20px;
+    _margin-left: 16px;
+    width: 356px;
+    height: 356px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.doc-calling-card{
+    width: 350px;
+    background-color: #d6eea5 ;
+    padding: 16px;
+    margin-bottom: 36px;
+    box-shadow: rgba(128, 128, 128, 0.541) 3px 6px 20px 3px;
+}
+
+.doc-calling-card p{
+    margin-top: 20px;
+}
+
+.like-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.like{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.doc-name{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.alert-form{
+    text-align: center;
+    padding-right: 100px;
+    margin-bottom: 80px;
+}
+

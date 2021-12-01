@@ -1,0 +1,18 @@
+.container-body{
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.box-message{
+    background-color: #f9f2f2cc;
+    box-shadow: rgba(128, 128, 128, 0.541) 3px 6px 20px 3px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.message{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
